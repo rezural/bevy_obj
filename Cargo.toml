@@ -15,10 +15,11 @@ bevy_render = "0.4"
 bevy_utils = "0.4"
 anyhow = "1.0"
 thiserror = "1.0"
-obj-rs = { version = "0.6", default-features = false }
-
-[dev-dependencies]
+obj-rs = { version = "0.6.1", default-features = false }
 bevy = "0.4"
+
+# [dev-dependencies]
+# bevy = "0.4"
 
 [[example]]
 name = "render_obj"
